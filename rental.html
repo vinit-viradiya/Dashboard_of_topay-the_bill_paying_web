@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/css/table.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="top">
+
+  <div class="left-sidebar">
+    <ul class="list">
+      <li>
+        <a href="index.html"><img src="assets/images/meter.svg" class="in-svg" alt="Icon"><span>Dashboard</span></a>
+      </li>
+      <li>
+        <a href="kyc-update.html"><img src="assets/images/file.svg" class="in-svg" alt="Icon"><span>KYC
+            Update</span></a>
+      </li>
+      <li>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0">
+            <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#one"
+              aria-expanded="false" aria-controls="one">
+              <img src="assets/images/mail.svg" class="in-svg" alt="Icon">
+              <span>Credit Cards</span>
+            </button>
+            <div id="one" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <ul>
+                <li>
+                  <a href="cards.html">Cards</a>
+                </li>
+                <li>
+                  <a href="credit-bill.html">Credit Card Bill Payment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="rental.html" class="active"><img src="assets/images/home.svg" class="in-svg" alt="Icon"><span>Rental</span></a>
+      </li>
+      <li>
+        <a href="payout-historys.html"><img src="assets/images/home.svg" class="in-svg" alt="Icon"><span>All
+            Payout
+            Historys</span></a>
+      </li>
+      <li>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0">
+            <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#two"
+              aria-expanded="false" aria-controls="two">
+              <img src="assets/images/document.svg" class="in-svg" alt="Icon"><span>Utilities</span>
+            </button>
+            <div id="two" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <ul>
+                <li>
+                  <a href="bill-payments.html">Bill Payments</a>
+                </li>
+                <li>
+                  <a href="broadBand.html">BroadBand</a>
+                </li>
+                <li>
+                  <a href="cable.html">Cable</a>
+                </li>
+                <li>
+                  <a href="traffic-challan.html">Traffic Challan</a>
+                </li>
+                <li>
+                  <a href="electricity.html">Electricity</a>
+                </li>
+                <li>
+                  <a href="datacard-prepail.html">Datacard Prepaid</a>
+                </li>
+                <li>
+                  <a href="lpg-book.html">LPG Book & Pay</a>
+                </li>
+                <li>
+                  <a href="municipal-payment.html">Municipal Payment</a>
+                </li>
+                <li>
+                  <a href="watter_bill.html">Water Bill Payment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="wallet.html"><img src="assets/images/wallet.svg" class="in-svg" alt="Icon"><span>Wallet</span></a>
+      </li>
+      <li>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0">
+            <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#three" aria-expanded="false" aria-controls="three">
+              <img src="assets/images/search.svg" class="in-svg" alt="Icon"><span>Reports</span>
+            </button>
+            <div id="three" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <ul>
+                <li>
+                  <a href="transaction-report.html">All Transaction Report</a>
+                </li>
+                <li>
+                  <a href="card-bill.html">Card Bill Report</a>
+                </li>
+                <li>
+                  <a href="bill-pay-report.html">Bill Payment Report</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="login-page.html"><img src="assets/images/power.svg" class="in-svg" alt="Icon"><span>Logout</span></a>
+      </li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <header>
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center row-gap-3">
+          <div class="d-flex col-3 p-0">
+            <div class="logo p-0">
+              <a href="#">
+                <img src="assets/images/logo.png" class="logo" alt="Logo">
+              </a>
+            </div>
+            <div class="ms-3 d-flex">
+              <button class="hamburger-menu text-start bg-transparent border-0">
+                <img src="assets/images/menu.svg" width="30" alt="Image">
+              </button>
+            </div>
+          </div>
+          <div class="header-right col-2 col-sm-9 col-lg-7 col-xl-6">
+            <div class="bg-white rounded-pill p-3 d-flex align-items-center justify-content-between">
+              <div class="col-8 p-0 d-none d-sm-flex">
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search...">
+                <datalist id="datalistOptions">
+                  <option value="San Francisco">
+                  <option value="New York">
+                  <option value="Seattle">
+                  <option value="Los Angeles">
+                  <option value="Chicago">
+                </datalist>
+              </div>
+              <div class="col-4 d-flex justify-content-end p-0">
+                <a href="#" class="d-none d-sm-flex align-items-center"><img src="assets/images/bell.svg" width="20"
+                    alt="Image"></a>
+                <a href="#" class="d-none d-sm-flex align-items-center ms-3"><img src="assets/images/moon.svg"
+                    width="20" alt="Image"></a>
+                <a href="#" class="d-none d-sm-flex align-items-center ms-3"><img src="assets/images/i.svg" width="20"
+                    alt="Image"></a>
+                <a href="#" class="d-flex align-items-center ms-3"><img src="assets/images/user.png" width="40"
+                    alt="Image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container-fluid text-capitalize">
+          <div class="row">
+            <div class="p-3">
+              <div class="trans-his">
+                <div class="title d-flex justify-content-between gap-3">
+                  <span class="col-12 col-xl">
+                    Rental List
+                  </span>
+                  <div class="col-12 col-xl justify-content-xl-end d-flex gap-3">
+                    <button class="btn px-4">+ &nbsp; Add Rental</button>
+                    <button class="btn px-4">+ &nbsp; Rental payment</button>
+                  </div>
+                </div>
+                <div class="devider"></div>
+                <form action="">
+                  <div class="d-flex row-gap-3 mb-3 py-3 mx-15">
+                    <div class="col-12 col-sm-6 col-xl-3">
+                      <label>From Date</label>
+                      <div class="d-flex column-gap-5">
+                        <input class="col p-2" type="date">
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                      <label>To Date</label>
+                      <div class="d-flex column-gap-5">
+                        <input class="col p-2" type="date">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="table-reponsive box">
+                  <table id="example" class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/jquery.dataTables.min.js"></script>
+  <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
