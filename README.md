@@ -1,2 +1,2 @@
 # ToPay-s-dashboard-the-bill-paying-web-
-Dashboard of topay the bill paying website
+Dashboard of ToPay - The Bill Paying Website
