@@ -42,6 +42,7 @@ AOS.init();
 
 $(document).ready(function () {
   $('#example').DataTable();
+  $('.loader-wrapper').fadeOut("slow");
 });
 
 $(".hamburger-menu").click(function () {
